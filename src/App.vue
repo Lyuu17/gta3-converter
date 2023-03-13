@@ -4,9 +4,9 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <div class="border m-1 p-2">
+    <div class="border m-1 p-3 flex justify-center">
       <nav>
-        <RouterLink to="/ipl">IPL</RouterLink>
+        <RouterLink to="/ipl">IPL Convert</RouterLink>
       </nav>
     </div>
   </header>
@@ -14,4 +14,4 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterView />
 </template>
 
-<style scoped></style>
+<style></style>
