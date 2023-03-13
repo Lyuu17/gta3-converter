@@ -5,6 +5,7 @@
 
       <textarea 
         v-model="inputText"
+        class="border"
         cols="6" rows="20">
         
       </textarea>
@@ -15,6 +16,7 @@
 
       <textarea
         v-model="outputText"
+        class="border"
         cols="6" rows="20">
         
       </textarea>
